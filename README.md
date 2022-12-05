@@ -19,7 +19,7 @@
 # Result
 ![image](https://user-images.githubusercontent.com/110019752/205637769-5d3635ce-0a8d-4805-9d55-4ee46cd5b5a7.png) </br>
 
-#
+# 프로젝트 리뷰
 * **Segmentation**: 논문에서 제시한 epoch(80)는 3일 이상 소요돼 더 적은 횟수로 segmentation 모델을 훈련함. BDD로만 훈련되어 BDD 데이터셋에 적용하면 높은 정확도를 보이지만, 한국 데이터에서는 정확도가 낮음. </br>
 * 한국 도로로 구성된 훈련 가능한 데이터 셋이 있다면 시도해볼 만할 것으로 보임. </br>
 
