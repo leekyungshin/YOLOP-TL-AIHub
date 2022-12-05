@@ -13,6 +13,7 @@ unofficial adoptation of [YOLOP](https://github.com/hustvl/YOLOP).
 * 너무 멀리 있는 신호등은 식별하는데 어려움이 있어
 가로 5, 세로 5 픽셀 이상의 신호등을 인지하도록 함. </br>
 
+# Result
 ![image](https://user-images.githubusercontent.com/110019752/205637769-5d3635ce-0a8d-4805-9d55-4ee46cd5b5a7.png) </br>
 
 #
@@ -27,7 +28,7 @@ unofficial adoptation of [YOLOP](https://github.com/hustvl/YOLOP).
 
 ## 향후 계획
 
-* 코드 
+* 코드 정제
 * **mAP(mean precision)** 게시
 
 ### Requirements
