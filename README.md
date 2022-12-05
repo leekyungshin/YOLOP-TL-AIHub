@@ -21,9 +21,14 @@ unofficial adoptation of [YOLOP](https://github.com/hustvl/YOLOP).
 
 * **Detection**: 더 많은 신호등 데이터가 필요할 것 같고, 자동차와 물체의 특성이 다르기 때문에 여러 하이퍼 파라미터들을 변경해가며 더 높은 정확도를 가질 수 있을 것으로 보임. </br>
 
-* BDD100K 데이터셋에 있는 신호등 물체를 사용하여 훈련했지만, 원하는 정확도가 나오지 않음. 데이터셋 분석 결과 신호등 오브젝트가 굉장히 적었으며, Bbox도 부정확한 경우가 많은 것으로 판단돼 신호등 데이터가 적었다고 판단.
+* BDD100K 데이터셋에 있는 신호등 물체를 사용하여 훈련했지만, 원하는 정확도가 나오지 않음. 데이터셋 분석 결과 신호등 오브젝트가 굉장히 적었으며, Bbox도 부정확한 경우가 많은 것으로 판단돼 신호등 데이터가 적었다고 판단. </br>
 
-* YOLOPv2가 22년 11월 기준 BDD100K 데이터셋 SOTA를 달성해서 사용하려 했으나, 훈련 방법이 공개되지 않아 YOLOP로 개발을 진행 향후 YOLOPv2의 추가적인 코드가 공개되면 쉽게 이식하여 훨씬 높은 정확도로 모델을 구축 가능할 것으로 보임.
+* YOLOPv2가 22년 11월 기준 BDD100K 데이터셋 SOTA를 달성해서 사용하려 했으나, 훈련 방법이 공개되지 않아 YOLOP로 개발을 진행 향후 YOLOPv2의 추가적인 코드가 공개되면 쉽게 이식하여 훨씬 높은 정확도로 모델을 구축 가능할 것으로 보임. </br>
+
+## 향후 계획
+
+* 코드 
+* **mAP(mean precision)** 게시
 
 ### Requirements
 basic requirements can be found at original [repo](https://github.com/hustvl/YOLOP).
