@@ -7,6 +7,16 @@ unofficial adoptation of [YOLOP](https://github.com/hustvl/YOLOP).
 
 이번 프로젝트는 신호등을 감지함으로써 향후 더 안정적인 주행을 하는 모델을 만드는 데에 도움이 될 수 있도록 기존의 모델을 튜닝하는 것을 목표로 함. </br>
 
+# 데이터 전처리
+구(등)수 3구이상의 일반 신호등으로 학습 진행 </br>
+상태 세부 속성을 좌회전, 초록불, 노란불, 빨간불, 꺼짐 상태로 입력 받도록 함. </br>
+너무 멀리 있는 신호등은 식별하는데 어려움이 있어
+가로 5, 세로 5 픽셀 이상의 신호등을 인지하도록 함. </br>
+
+![image](https://user-images.githubusercontent.com/110019752/205637769-5d3635ce-0a8d-4805-9d55-4ee46cd5b5a7.png)
+ </br>
+
+
 ### Requirements
 basic requirements can be found at original [repo](https://github.com/hustvl/YOLOP).
 
