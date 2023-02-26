@@ -31,7 +31,6 @@
 
 ## 향후 계획
 
-* 코드 정제
 * **mAP(mean precision)** 게시
 
 ![image](https://user-images.githubusercontent.com/110019752/205632751-8f5ef416-2055-47ab-b5a2-669bc1b23414.png)
